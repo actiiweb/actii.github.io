@@ -1,0 +1,213 @@
+body 
+{ font-family: Verdana, Geneva, Arial, helvetica, sans-serif; }
+
+td { font-family: Verdana, Geneva, Arial, helvetica, sans-serif; }
+
+th { font-family: Verdana, Geneva, Arial, helvetica, sans-serif; }
+
+.content 
+{ font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: x-small; 
+font-style: normal; 
+font-weight: normal; 
+color: #000000; 
+background-color: #FFFFFF; 
+text-indent: 10pt; 
+border: 10px dotted #FFFFFF; 
+}
+.tidbits { font-family: Arial, Helvetica, sans-serif; 
+font-size: xx-small; 
+font-style: normal; 
+font-weight: normal; 
+color: #FFFFFF; 
+text-indent: 5pt; 
+border: 1px dashed #993366; 
+background-position: top; 
+}
+ 
+ a.button:link 
+  { 
+  font-size:12px; 
+  font-weight:bold; 
+  font-wrap: none;
+  text-decoration:none;
+  border-color:#996699; 
+  border-width:5px; 
+  background-color:#CC99CC; 
+  width:100px; 
+  color:White; 
+  padding: 3px;
+  background-position: 100%;
+  height: 100%;
+  width: auto;
+  } 
+
+  a.button:visited 
+  { 
+  font-size:12px; 
+  font-weight:bold;
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  text-decoration:none;
+  border-color:#996699; 
+  border-width:10px; 
+  background-color:#996699; 
+  width:100px; 
+  color:white; 
+  	background-position: 100%;
+	height: 100%;
+	width: 100%;
+  } 
+a.button:active 
+  {
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#993366;
+	color:#FFFFFF;
+	white-space: nowrap;
+	cursor: hand;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+
+
+
+
+
+
+  } 
+a.button:hover 
+  { 
+  font-size:12px; 
+  font-weight:bold; 
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-decoration:none; 
+  border-color:#996699; 
+  border-width:5px; 
+  background-color:#993366; 
+  width:100px; 
+  color:white; 
+  padding: 3px;
+  background-position: 100%;
+  height: 100%;
+  width: auto;
+  } 
+  
+  .menuskin{
+	position:absolute;
+	width:135;
+	background-color:#CC99CC;
+	border:2px solid black;
+	font:bold 12px Verdana;
+	z-index:100;
+	visibility:hidden;
+	left: 423px;
+	top: 91px;
+
+
+}
+
+.menuskin a{
+font:bold 12px Verdana;
+text-decoration:none;
+color:white;
+padding-left:10px;
+padding-right:10px;
+}
+
+#mouseoverstyle{
+background-color:highlight;
+}
+
+#mouseoverstyle a{
+color:white;
+}
+/**
+ * Set the margins of the page to zero, so that the absolute
+ * positions of the menus will be consistent across all browsers.
+ * Note the 'marginwidth' and 'marginheight' attributes in 
+ * the <body> tag that are required for NSN4 compatibility.
+ */
+body { 
+  margin: 0px;
+  padding: 0px;
+}
+
+/**
+ * Sets style attributes for popup menus. 
+ * Note the 'width' property, which is required for Opera
+ * compatibility. This value must jive with the menuItemWidth
+ * JavaScript value above. The menu width should be two
+ * pixels larger than the menu item width to allow for the
+ * 1-pixel border on either side.
+ */
+.menu {
+	position: relative;
+	top: 70;
+	width: 120px;
+	visibility: hidden;
+	background-color: #000000;
+
+}
+
+/**
+ * Sets style attributes for popup menu items. 
+ * Note the 'width' and 'height' properties, which are
+ * required for Opera compatibility. These values must
+ * match the menuItemWidth and menuItemHeight JavaScript
+ * values above.
+ */
+.menuitem {
+	position: absolute;
+	height: 19px;
+	background-color: #FFFF99;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	cursor: pointer;
+	left: 1px;
+	width: 119px;
+
+}
+
+/**
+ * Sets style attributes for highlighted popup menu items. 
+ * Note the 'width' and 'height' properties, which are
+ * required for Opera compatibility. These values must
+ * match the menuItemWidth and menuItemHeight JavaScript
+ * values above.
+ */
+.menuitemon {
+  position: absolute;
+  left: 1px; width: 118px; height: 19px;
+  visibility: hidden;
+  background-color: #336666;
+  color: #FFFFFF;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/**
+ * Hides the links that are used in hilighted menu
+ * items to make the menu item text clickable in NSN4
+ */
+.menuitemon a { text-decoration: none; color: #FFFFFF; }
+
+/**
+ * Sets the horizontal position and height of each menu. 
+ * The height values are calculated and set automatically
+ * for NSN4 by the JavaScript code above, which does not
+ * support this, but all other browsers rely on these
+ * values. Make sure they jive with the JavaScript
+ * menuItemHeight variable according to the following
+ * relationship:
+ *   Menu Height = (menuItemHeight+1)*numMenuItems)+1
+ */
+#menu1 { left:0px; height: 60px; }
+#menu2 { left:180; height: 61px; }
+#menu3 { left:576px; height: 61px; }
+#menu4 { left:456px; height: 81px; }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+<url>
+<loc>http://www.actii.org/</loc>
+<lastmod>2008-09-16</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url>
+<url>
+<loc>http://www.actii.org/FaithPrograms.html</loc>
+<lastmod>2008-09-16</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.</priority>
+</url>
+<url>
+<loc>http://www.actii.org/Coaching.html</loc>
+<lastmod>2008-09-16</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.0</priority>
+</url>
+<url>
+<loc>http://www.actii.org/About.html</loc>
+<lastmod>2008-09-16</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.0</priority>
+</url>
+<url>
+<loc>http://www.actii.org/index.html</loc>
+<lastmod>2008-09-16</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url>
+</urlset>
