@@ -156,7 +156,7 @@ function writeMenus(container) {
 			}
 			var dTag = '<div id="menuItem'+ countItems +'" style="position:absolute;left:' + itemLeft + 'px;top:'+ itemTop +'px;'+ itemProps +'">';
 			var dClose = '</div>'
-			if (menu.bgImageUp) dTag = '<div id="menuItem'+ countItems +'" style="background:url(/+menu.bgImageUp+);position:absolute;left:' + itemLeft + 'px;top:'+ itemTop +'px;'+ itemProps +'">';
+			if (menu.bgImageUp) dTag = '<div id="menuItem'+ countItems +'" style="background:url(/+menu.bgImageUp+);position:absolute;left: display:none;' + itemLeft + 'px;top:'+ itemTop +'px;'+ itemProps +'">';
 
 			var left = 0, top = 0, right = 0, bottom = 0;
 			left = 1 + menu.menuItemPadding + menu.menuItemIndent;
