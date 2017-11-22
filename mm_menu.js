@@ -1,6 +1,6 @@
 /**
  * mm_menu 20MAR2002 Version 6.0
- * Andy Finnell, March 2002
+ * Andy Finnell, March2002
  * Copyright (c) 2000-2002 Macromedia, Inc.
  *
  * based on menu.js
